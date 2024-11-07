@@ -2,7 +2,7 @@
 
 This is my personal portfolio website, created using React and styled with Tailwind CSS. This site showcases my skills, projects, and background.
 
-<button><a href="https://portfolio-alpha-tan-34.vercel.app/">Visit</a></button>
+<a href="https://portfolio-alpha-tan-34.vercel.app/">Click to Visit</a>
 
 <div a align="center">
 
@@ -12,7 +12,7 @@ This is my personal portfolio website, created using React and styled with Tailw
 
 ## Features
 
-- **Home** - Displays my photo, name, and title as a full stack developer.
+- **Home** - Displays my photo, name, and title as a full-stack developer.
 - **About Me** - My background and journey in tech.
 - **Projects** - A showcase of my projects with brief descriptions and links.
 - **Contact** - Ways to reach me, including email and socials
