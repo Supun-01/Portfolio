@@ -12,8 +12,8 @@ function NavBar() {
     const navBarLinks = (
         <div className="md:space-x-5 p-2 text-gray-900">
             <a href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800">Home</a>
-            <a href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800">About</a>
-            <a href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800">Services</a>
+            <a href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800">About Me</a>
+            <a href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800">Projects</a>
             <a href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800">Contact</a>
         </div>
     );

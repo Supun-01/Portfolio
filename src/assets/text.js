@@ -19,8 +19,9 @@ export const socialMediaLinks = {
 export const Projects = [
     {
         projectTitle: "Portfolio",
-        projectImage: "https://raw.githubusercontent.com/Supun-01/st-portfolio/master/Screenshots/01.png",
+        projectImage: "https://raw.githubusercontent.com/Supun-01/Portfolio/master/Screenshots/01.png",
         projectContent: "A responsive portfolio site built with React and Tailwind CSS to showcase my projects, skills, and experience in web development.",
         projectLink: "https://github.com/Supun-01/st-portfolio"
     }
 ];
+
