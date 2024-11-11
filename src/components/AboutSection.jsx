@@ -21,7 +21,7 @@ function AboutSection() {
                             I’m a 4th-year BICT student at the University of Kelaniya, passionate about full-stack development with the MERN stack (MongoDB, Express.js, React, Node.js). I have a strong foundation in front-end design and am gaining back-end experience through my current internship.
                         </p>
                         <p className="">
-                            My goal is to become a skilled full-stack developer, creating efficient and user-friendly web applications. When I’m not coding, I enjoy [personal interest, e.g., reading or exploring new tech].
+                            My goal is to become a skilled full-stack developer, creating efficient and user-friendly web applications. When I’m not coding, I enjoy watching Anime.
                         </p>
                         <p className="">
                             Let’s connect!

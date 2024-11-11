@@ -22,6 +22,12 @@ export const Projects = [
         projectImage: "https://raw.githubusercontent.com/Supun-01/Portfolio/master/Screenshots/01.png",
         projectContent: "A responsive portfolio site built with React and Tailwind CSS to showcase my projects, skills, and experience in web development.",
         projectLink: "https://github.com/Supun-01/st-portfolio"
+    },
+    {
+        projectTitle: "Youtube UI Clone",
+        projectImage: "https://raw.githubusercontent.com/Supun-01/Youtube-UI-Clone/master/Screenshots/01.png",
+        projectContent: "A responsive YouTube UI clone using React, Vite, and Tailwind CSS for fast, modern design.",
+        projectLink: "https://github.com/Supun-01/Youtube-UI-Clone"
     }
 ];
 
