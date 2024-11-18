@@ -22,8 +22,8 @@ This is my personal portfolio website, created using React and styled with Tailw
 - **React** - JavaScript library for building the user interface.
 - **Tailwind CSS** - Utility-first CSS framework for styling the components.
 - **Vite** - Development environment to boost the build speed of the app.
-  
-![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black) 
+
+![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 
@@ -37,6 +37,7 @@ cd portfolio
 npm install
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+npm install react-router-dom
 ```
 
 **2. Start the Development Server:**

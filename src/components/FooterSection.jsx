@@ -17,7 +17,7 @@ function FooterSection() {
                     </a>
                 </div>
 
-                <div className="text-3xl flex gap-4">
+                <div className="text-4xl flex gap-4">
                     <a href={socialMediaLinks.gitHubLink} target="_blank"> <FaGithub /></a>
                     <a href={socialMediaLinks.LinkedInLink} target="_blank"><FaLinkedin className="text-blue-900" /></a>
                     <a href={socialMediaLinks.FacebookLink} target="_blank"><FaFacebook className="text-blue-700" /></a>

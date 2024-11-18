@@ -1,5 +1,6 @@
 import { IoMdMenu } from "react-icons/io";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,9 +12,9 @@ function NavBar() {
 
     const navBarLinks = (
         <div className="md:space-x-5 p-2 text-gray-900">
-            <a href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800">Home</a>
-            <a href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800">About Me</a>
-            <a href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800">Projects</a>
+            <a href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800"><Link to="/">Home</Link></a>
+            <a href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800"><Link to="/about">About Me</Link></a>
+            <a href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800"><Link to="/project">Projects</Link></a>
             <a href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800">Contact</a>
         </div>
     );
@@ -22,7 +23,7 @@ function NavBar() {
         <nav className="bg-blue-gray-200 px-5 md:px-10 py-4">
             <div className="flex flex-wrap lg:container lg:mx-auto justify-between items-center">
                 <div className=" border-gray-800 rounded-xl">
-                    <h1 className="text-xl md:text-2xl lg:text-3xl tracking-tighter text-gray-900 font-semibold">SupunTharaka</h1>
+                    <h1 className="text-xl md:text-2xl lg:text-3xl tracking-tighter text-gray-900 font-semibold"><Link to="/">SupunTharaka</Link></h1>
                 </div>
                 <div className="hidden md:block md:text-xl lg:text-2xl font-semibold">
                     {navBarLinks}
