@@ -1,6 +1,6 @@
 import { IoMdMenu } from "react-icons/io";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -12,10 +12,10 @@ function NavBar() {
 
     const navBarLinks = (
         <div className="md:space-x-5 p-2 text-gray-900">
-            <a href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800"><Link to="/">Home</Link></a>
-            <a href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800"><Link to="/about">About Me</Link></a>
-            <a href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800"><Link to="/project">Projects</Link></a>
-            <a href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800">Contact</a>
+            <div href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800"><NavLink to="/">Home</NavLink></div>
+            <div href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800"><NavLink to="/about">About Me</NavLink></div>
+            <div href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800"><NavLink to="/project">Projects</NavLink></div>
+            <div href="#" className="block md:inline transition duration-300 ease-in-out hover:text-cyan-800">Contact</div>
         </div>
     );
 
